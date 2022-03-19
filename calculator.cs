@@ -25,9 +25,9 @@ namespace CalculatorConsoleApp
             if (x==1)
             {
                 Console.Write("Inputkan nilai a = ");
-                int a = int.Parse(Console.ReadLine());
+                float a = float.Parse(Console.ReadLine());
                 Console.Write("Inputkan nilai b = ");
-                int b = int.Parse(Console.ReadLine());
+                float b = float.Parse(Console.ReadLine());
                 Console.WriteLine("Hasil penambahan" + a + "+" + b + " = " + Penambahan(a, b));
             }
 
