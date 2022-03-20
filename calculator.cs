@@ -34,9 +34,9 @@ namespace CalculatorConsoleApp
             else if (x == 2)
             {
                 Console.Write("Inputkan nilai a = ");
-                int a = int.Parse(Console.ReadLine());
+                float a = float.Parse(Console.ReadLine());
                 Console.Write("Inputkan nilai b = ");
-                int b = int.Parse(Console.ReadLine());
+                float b = float.Parse(Console.ReadLine());
 
                 Console.WriteLine("Hasil pengurangan{0}-{1}={2}", a, b, Pengurangan(a, b));
             }
@@ -45,9 +45,9 @@ namespace CalculatorConsoleApp
             {
 
                 Console.Write("Inputkan nilai a = ");
-                int a = int.Parse(Console.ReadLine());
+                float a = float.Parse(Console.ReadLine());
                 Console.Write("Inputkan nilai b = ");
-                int b = int.Parse(Console.ReadLine());
+                float b = float.Parse(Console.ReadLine());
                 Console.WriteLine("Hasil Perkalian {0}*{1}={2}", a, b, Perkalian(a, b));
             }
 
@@ -55,9 +55,9 @@ namespace CalculatorConsoleApp
             {
 
                 Console.Write("Inputkan nilai a = ");
-                int a = int.Parse(Console.ReadLine());
+                float a = float.Parse(Console.ReadLine());
                 Console.Write("Inputkan nilai b = ");
-                int b = int.Parse(Console.ReadLine());
+                float b = float.Parse(Console.ReadLine());
                 Console.WriteLine("Hasil Pembagian {0}/{1}={2}", a, b, Pembagian(a, b));
             }
 
@@ -78,22 +78,22 @@ namespace CalculatorConsoleApp
 
 
 
-        static int Penambahan(int a, int b)
+        static float Penambahan(float a, float b)
         {
             return a + b;
         }
 
-        static int Pengurangan(int a, int b)
+        static float Pengurangan(float a, float b)
         {
             return a- b;
         }
 
-        static int Perkalian(int a, int b)
+        static float Perkalian(float a, float b)
         {
             return a * b;
         }
 
-        static int Pembagian(int a, int b)
+        static float Pembagian(float a, float b)
         {
             return a / b;
         }
